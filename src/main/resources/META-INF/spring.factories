@@ -1,0 +1,1 @@
+org.springframework.boot.env.EnvironmentPostProcessor=ru.andreyszdlv.springbootstarters3loadimage.epp.ProviderEnvironmentPostProcessor

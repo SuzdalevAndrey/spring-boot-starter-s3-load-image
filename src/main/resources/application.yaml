@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: spring-boot-starter-s3-load-image
+
+s3-load-image-starter:
+  expiration-url-in-minutes: 60
