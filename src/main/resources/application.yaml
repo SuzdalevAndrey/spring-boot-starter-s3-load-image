@@ -4,3 +4,4 @@ spring:
 
 s3-load-image-starter:
   expiration-url-in-minutes: 60
+  bucket-name: default-bucket-name

@@ -36,7 +36,7 @@ public class S3AutoConfiguration {
                             )
                         )
                 )
-                .region(Region.of(s3Properties.getRegion()))
+                .region(Region.AP_NORTHEAST_1)
                 .serviceConfiguration(
                         S3Configuration
                                 .builder()
@@ -61,7 +61,7 @@ public class S3AutoConfiguration {
                             )
                         )
                 )
-                .region(Region.of(s3Properties.getRegion()))
+                .region(Region.AP_NORTHEAST_1)
                 .serviceConfiguration(
                         S3Configuration
                                 .builder()

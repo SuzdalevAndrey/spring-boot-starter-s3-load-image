@@ -1,1 +1,5 @@
-org.springframework.boot.env.EnvironmentPostProcessor=ru.andreyszdlv.springbootstarters3loadimage.epp.ProviderEnvironmentPostProcessor
+org.springframework.boot.env.EnvironmentPostProcessor=\
+  ru.andreyszdlv.springbootstarters3loadimage.epp.ProviderEnvironmentPostProcessor,\
+  ru.andreyszdlv.springbootstarters3loadimage.epp.AccessEnvironmentPostProcessor,\
+  ru.andreyszdlv.springbootstarters3loadimage.epp.RegionEnvironmentPostProcessor,\
+  ru.andreyszdlv.springbootstarters3loadimage.epp.EndpointEnvironmentPostProcessor
