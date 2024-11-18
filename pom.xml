@@ -10,21 +10,28 @@
     </parent>
     <groupId>ru.andreyszdlv</groupId>
     <artifactId>spring-boot-starter-s3-load-image</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>spring-boot-starter-s3-load-image</name>
-    <description>spring-boot-starter-s3-load-image</description>
-    <url/>
+    <description>Spring Boot Starter for working with S3 and MinIO</description>
+    <url>https://github.com/SuzdalevAndrey/spring-boot-starter-s3-load-image</url>
     <licenses>
-        <license/>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
     </licenses>
     <developers>
-        <developer/>
+        <developer>
+            <id>andreyszdlv</id>
+            <name>Andrey Suzdalev</name>
+        </developer>
     </developers>
     <scm>
-        <connection/>
-        <developerConnection/>
-        <tag/>
-        <url/>
+        <connection>scm:git:git://github.com/SuzdalevAndrey/spring-boot-starter-s3-load-image.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:SuzdalevAndrey/spring-boot-starter-s3-load-image.git</developerConnection>
+        <url>https://github.com/SuzdalevAndrey/spring-boot-starter-s3-load-image</url>
+        <tag>HEAD</tag>
     </scm>
     <properties>
         <java.version>17</java.version>
@@ -65,4 +72,18 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
