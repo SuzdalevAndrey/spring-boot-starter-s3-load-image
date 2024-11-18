@@ -28,7 +28,7 @@
 <dependency>
     <groupId>com.github.SuzdalevAndrey</groupId>
     <artifactId>spring-boot-starter-s3-load-image</artifactId>
-    <version>1.0.0</version>
+    <version>v1.0.1</version>
 </dependency>
 ```
 
@@ -46,7 +46,7 @@ dependencyResolutionManagement {
 Шаг 2. Добавьте зависимость
 ```groovy
 dependencies {
-	        implementation 'com.github.SuzdalevAndrey:spring-boot-starter-s3-load-image:1.0.0'
+	        implementation 'com.github.SuzdalevAndrey:spring-boot-starter-s3-load-image:v1.0.1'
 	}
 ```
 
